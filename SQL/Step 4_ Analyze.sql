@@ -1,1 +1,15 @@
+-- Objective:
+-- The goal of this step is to analyze aggregated cardiotocogram (CTG) indicators 
+-- across different fetal health classifications (Normal, Suspicious, Pathological) 
+-- to identify significant differences and clinical patterns. 
+-- This step focuses on summarizing fetal heart rate metrics, variability, 
+-- accelerations, decelerations, uterine activity, and histogram-based features 
+-- to determine which characteristics are most strongly associated with 
+-- higher-risk fetal health outcomes.
 
+-- Key Actions:
+-- * Group records by fetal health class.
+-- * Calculate the total number of records for each classification.
+-- * Calculate average values ​​for key CTG indicators.
+-- * Compare variability, acceleration, and deceleration trends between classes.
+-- * Create a view ready for analysis, visualization, and interpretation.
