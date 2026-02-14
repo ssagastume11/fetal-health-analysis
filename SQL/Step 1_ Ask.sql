@@ -1,1 +1,15 @@
+-- Business Task:
+-- Analyze cardiotocogram-derived (CTG) features to determine which indicators are most strongly
+-- associated with higher-risk fetal health classfications.
+-- The insights from this analysis can help healthcare professionals prioritize
+-- monitoring, diagnostics, and intervention for pregnancies at greater risk,
+-- contributing to the prevention of child and maternal mortality.
 
+-- Key Questions:
+-- 1. How do fetal heart rate baseline and variability metrics differ across
+--    Normal, Suspect, and Pathological classifications?
+-- 2. Which CTG features (e.g., accelerations, decelerations, uterine contractions)
+--    show the strongest seperation between low-risk and high-risk cases?
+-- 3. Are there measurable indicators that consistently signal pathological fetal health?
+-- 4. How do histogram-based features (mean, variance, tendency) vary by health class?
+-- 5. Can aggregated feature patterns help differentiate low-risk vs. high-risk pregnancies?
