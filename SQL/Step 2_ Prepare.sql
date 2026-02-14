@@ -1,1 +1,13 @@
+-- Objective:
+-- The goal of this step is to load, clean, and organize the fetal health dataset
+-- derived from cardiological (CTG) exams so it is ready for accurate analysis.
+-- This includes validating data integrity, converting data types, standardizing
+-- column names, handling missing or invalid values, and creating a clean,
+-- analysis-ready table that preserves the clinical meaning of each feature.
 
+-- Key Actions:
+-- * Ensure all numeric fields are stored using appropriate data types (FLOAT64 / INT64).
+-- * Rename columns to follow consistent snake_case naming conventions.
+-- * Validate fetal health classification values.
+-- * Remove records with missing or invalid target labels.
+-- * Create a cleaned table seperate from the raw source to preserve data lineage.
